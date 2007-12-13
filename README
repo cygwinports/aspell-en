@@ -1,0 +1,105 @@
+aspell-en
+------------------------------------------
+Aspell English dictionaries
+
+Runtime requirements:
+  libaspell15-0.60.5-1
+
+Build requirements:
+  aspell-0.60.5-1
+  cygport-0.3.7-1
+  make-3.81-1
+
+Canonical website:
+  http://aspell.net/
+
+Canonical download:
+  ftp://ftp.gnu.org/gnu/aspell/dict/en/
+
+-------------------------------------------
+
+Build instructions:
+  unpack aspell-en-6.0.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./aspell-en-6.0.0-X.cygport all
+
+This will create:
+  /usr/src/aspell-en-6.0.0-X-src.tar.bz2
+  /usr/src/aspell-en-6.0.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/aspell-0.60/american-w_accents.alias
+  /usr/lib/aspell-0.60/american-wo_accents.alias
+  /usr/lib/aspell-0.60/american.alias
+  /usr/lib/aspell-0.60/british-ise-w_accents.alias
+  /usr/lib/aspell-0.60/british-ise-wo_accents.alias
+  /usr/lib/aspell-0.60/british-ise.alias
+  /usr/lib/aspell-0.60/british-ize-w_accents.alias
+  /usr/lib/aspell-0.60/british-ize-wo_accents.alias
+  /usr/lib/aspell-0.60/british-ize.alias
+  /usr/lib/aspell-0.60/british-w_accents.alias
+  /usr/lib/aspell-0.60/british-wo_accents.alias
+  /usr/lib/aspell-0.60/british.alias
+  /usr/lib/aspell-0.60/canadian-w_accents.alias
+  /usr/lib/aspell-0.60/canadian-wo_accents.alias
+  /usr/lib/aspell-0.60/canadian.alias
+  /usr/lib/aspell-0.60/en-common.rws
+  /usr/lib/aspell-0.60/en-variant_0.multi
+  /usr/lib/aspell-0.60/en-variant_0.rws
+  /usr/lib/aspell-0.60/en-variant_1.multi
+  /usr/lib/aspell-0.60/en-variant_1.rws
+  /usr/lib/aspell-0.60/en-variant_2.multi
+  /usr/lib/aspell-0.60/en-variant_2.rws
+  /usr/lib/aspell-0.60/en-w_accents.multi
+  /usr/lib/aspell-0.60/en-wo_accents.multi
+  /usr/lib/aspell-0.60/en.dat
+  /usr/lib/aspell-0.60/en.multi
+  /usr/lib/aspell-0.60/en_CA-w_accents-only.rws
+  /usr/lib/aspell-0.60/en_CA-w_accents.multi
+  /usr/lib/aspell-0.60/en_CA-wo_accents-only.rws
+  /usr/lib/aspell-0.60/en_CA-wo_accents.multi
+  /usr/lib/aspell-0.60/en_CA.multi
+  /usr/lib/aspell-0.60/en_GB-ise-w_accents-only.rws
+  /usr/lib/aspell-0.60/en_GB-ise-w_accents.multi
+  /usr/lib/aspell-0.60/en_GB-ise-wo_accents-only.rws
+  /usr/lib/aspell-0.60/en_GB-ise-wo_accents.multi
+  /usr/lib/aspell-0.60/en_GB-ise.multi
+  /usr/lib/aspell-0.60/en_GB-ize-w_accents-only.rws
+  /usr/lib/aspell-0.60/en_GB-ize-w_accents.multi
+  /usr/lib/aspell-0.60/en_GB-ize-wo_accents-only.rws
+  /usr/lib/aspell-0.60/en_GB-ize-wo_accents.multi
+  /usr/lib/aspell-0.60/en_GB-ize.multi
+  /usr/lib/aspell-0.60/en_GB-w_accents.multi
+  /usr/lib/aspell-0.60/en_GB-wo_accents.multi
+  /usr/lib/aspell-0.60/en_GB.multi
+  /usr/lib/aspell-0.60/en_US-w_accents-only.rws
+  /usr/lib/aspell-0.60/en_US-w_accents.multi
+  /usr/lib/aspell-0.60/en_US-wo_accents-only.rws
+  /usr/lib/aspell-0.60/en_US-wo_accents.multi
+  /usr/lib/aspell-0.60/en_US.multi
+  /usr/lib/aspell-0.60/en_affix.dat
+  /usr/lib/aspell-0.60/en_phonet.dat
+  /usr/lib/aspell-0.60/english-variant_0.alias
+  /usr/lib/aspell-0.60/english-variant_1.alias
+  /usr/lib/aspell-0.60/english-variant_2.alias
+  /usr/lib/aspell-0.60/english-w_accents.alias
+  /usr/lib/aspell-0.60/english-wo_accents.alias
+  /usr/lib/aspell-0.60/english.alias
+  /usr/share/doc/aspell-en-6.0.0/COPYRIGHT
+  /usr/share/doc/aspell-en-6.0.0/README
+
+------------------
+
+Port Notes:
+
+----- version 6.0.0-1 -----
+Version bump for aspell-0.60.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,4 @@
+category: Text
+requires: libaspell15
+sdesc: "Aspell English dictionaries"
+ldesc: "Aspell English dictionaries"
