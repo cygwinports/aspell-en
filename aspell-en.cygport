@@ -1,0 +1,9 @@
+ASPELL_COMPAT=6
+inherit aspell-dict
+
+NAME="aspell-en"
+VERSION=7.1-0
+RELEASE=1
+CATEGORY="Text"
+SUMMARY="Aspell English dictionaries"
+DESCRIPTION="Aspell English dictionaries"
