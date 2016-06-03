@@ -6,6 +6,7 @@ VERSION=2016.01.19.0
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="Aspell English dictionaries"
-DESCRIPTION="Aspell English dictionaries"
-
-ARCH=noarch
+DESCRIPTION="GNU Aspell is a Free and Open Source spell checker designed to
+eventually replace Ispell. It can either be used as a library or as an
+independent spell checker.
+This package provides English dictionaries for Aspell."
