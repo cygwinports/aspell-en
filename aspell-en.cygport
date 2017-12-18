@@ -2,7 +2,7 @@ ASPELL_COMPAT=6
 inherit aspell-dict
 
 NAME="aspell-en"
-VERSION=2017.01.22.0
+VERSION=2017.08.24.0
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="Aspell English dictionaries"
